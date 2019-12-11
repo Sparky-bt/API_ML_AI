@@ -74,6 +74,28 @@
 
 - 3、当路径规划路线不正确或者不是最优方案时，提示：“对不起主人，这次考试我又不及格了，已经将错误报告给了程序员哥哥，我会继续努力的。”
 
+### 产品原型
+
+1、人脸识别
+
+![人脸](https://github.com/Sparky-bt/API_ML_AI/blob/master/%E4%BA%BA%E8%84%B8.png)
+
+2、地理地图
+
+![地图](https://github.com/Sparky-bt/API_ML_AI/blob/master/%E5%9C%B0%E5%9B%BE.png)
+
+3、路径规划
+
+![路径](https://github.com/Sparky-bt/API_ML_AI/blob/master/%E8%B7%AF%E5%BE%841.png)
+
+![路径](https://github.com/Sparky-bt/API_ML_AI/blob/master/%E8%B7%AF%E5%BE%842.png)
+
+3、同学圈
+
+![同学圈](https://github.com/Sparky-bt/API_ML_AI/blob/master/%E5%90%8C%E5%AD%A6%E5%9C%881.png)
+
+![同学圈](https://github.com/Sparky-bt/API_ML_AI/blob/master/%E5%90%8C%E5%AD%A6%E5%9C%882.png)
+
 ### 产品的可行性
 1、产品需求明确并且用户市场庞大。
 2、产品解决了用户需要毕业留念的用户需求。
