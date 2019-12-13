@@ -1,9 +1,16 @@
 # 项目名称：毕业纪念册APP
 
-### BRD：无论是处于什么年龄阶段的用户都有毕业留念的需求，所以此app受众群体大，价值较高。 MRD：基于现今市场上毕业生们对于留念回忆的新技术形式需求，不仅仅像之前的纸质相册那样难以携带，不方便保存，没有记忆点。
+| 项目名称 | 毕业纪念册APP |
+| ------ | ------ | 
+| 项目负责人 |黄舒婷 | 
+| 项目状态 | 迭代中|
 
 
-### 产品定位
+BRD：无论是处于什么年龄阶段的用户都有毕业留念的需求，所以此app受众群体大，价值较高。
+MRD：基于现今市场上毕业生们对于留念回忆的新技术形式需求，不仅仅像之前的纸质相册那样难以携带，不方便保存，没有记忆点。
+
+
+### 加值宣言
 毕业纪念册APP基于所有年龄层的用户都有毕业留念的需求所打造，增加新技术形式，旨在为有需求的用户提供一个回忆、交流、互动的全方位社交平台。
 
 ### 价值宣言
@@ -19,7 +26,7 @@
 **针对性**
 针对于相册的储存空间小，用户不记得同学的姓名，不方便用户再联络等痛点。毕业纪念册APP储存空间大，并且具有相应的人脸识别功能，点击即可出现人脸的基本信息。并且可以定位当前用户所在地，绘制班级分布地图，方便用户联络相聚。APP的社区功能也让用户的社交需求得到满足。
 
-### APP功能设计
+### APP功能设计（人工智能概率性）
 - app把一个集体的用户现居城市的地图描绘出来，打开app就能看见每个同学的所在地，方便聚会联系。
 - 用户上传的每一张照片，应用人脸识别功能，点击每一张人脸，可以出现名字、性别、生日等基本信息。
 - 社区功能：注册用户可以发布自己的近照，打造类似朋友圈的社交圈，可以让同学知道自己近况。
@@ -48,13 +55,22 @@
 人脸属性值：展示人脸属性信息，如年龄、性别等。
 人脸质量信息：返回人脸各部分的遮挡、光照、模糊、完整度、置信度等信息。
 
-- 免费额度
+代码示例：
+
+![人脸](https://github.com/Sparky-bt/API_ML_AI/blob/master/images/%E4%BA%BA%E8%84%B8api01.png)
+
+![人脸](https://github.com/Sparky-bt/API_ML_AI/blob/master/images/%E4%BA%BA%E8%84%B8api02.png)
 
 
 2、高德API——静态地图
 
 价值主张：通过返回一张地图图片响应HTTP请求，使用户能够将高德地图以图片形式嵌入自己的网页中。用户可以指定请求的地图位置、图片大小、以及在地图上添加覆盖物，如标签、标注、折线、多边形。
 
+代码示例：
+
+![地图](https://github.com/Sparky-bt/API_ML_AI/blob/master/images/%E5%9C%B0%E5%9B%BEAPI01.png)
+
+![地图](https://github.com/Sparky-bt/API_ML_AI/blob/master/images/%E5%9C%B0%E5%9B%BEapi02.png)
 
 
 3、高德API——路径规划
@@ -66,8 +82,17 @@
 无需展现地图的场景下，进行线路查询，如以线路结果页形式展现换乘方案；
 根据返回线路数据，自行开发线路导航
 
-### API使用错误反馈
+代码示例：
 
+![路径api](https://github.com/Sparky-bt/I-home/blob/master/images/%E8%B7%AF%E5%BE%84%E8%A7%84%E5%88%92api01.png)
+
+![路径api](https://github.com/Sparky-bt/I-home/blob/master/images/%E8%B7%AF%E5%BE%84%E8%A7%84%E5%88%92api02.png)
+
+![路径api](https://github.com/Sparky-bt/I-home/blob/master/images/%E8%B7%AF%E5%BE%84%E8%A7%84%E5%88%92api03.png)
+
+### API使用风险评估
+
+错误现象处理方法：
 - 1、当人脸识别信息错误的时，第一次提示：“啊，用户信息走丢了呢，请再试一次。”第二次提示：“对不起了小主人，我实在无能为力了，要不要问问客服小姐姐呀？”
 
 - 2、当静态地图绘制错误时，提示：“地图绘制错误，已将错误报告反馈给程序员哥哥，请您耐心等待。”之后记录错误信息，及时修改。
@@ -78,23 +103,28 @@
 
 1、人脸识别
 
-![人脸](https://github.com/Sparky-bt/API_ML_AI/blob/master/%E4%BA%BA%E8%84%B8.png)
+![人脸](https://github.com/Sparky-bt/API_ML_AI/blob/master/images/%E4%BA%BA%E8%84%B8.png)
 
 2、地理地图
 
-![地图](https://github.com/Sparky-bt/API_ML_AI/blob/master/%E5%9C%B0%E5%9B%BE.png)
+![地图](https://github.com/Sparky-bt/API_ML_AI/blob/master/images/%E5%9C%B0%E5%9B%BE.png)
 
 3、路径规划
 
-![路径](https://github.com/Sparky-bt/API_ML_AI/blob/master/%E8%B7%AF%E5%BE%841.png)
+![路径](https://github.com/Sparky-bt/API_ML_AI/blob/master/images/%E8%B7%AF%E5%BE%841.png)
 
-![路径](https://github.com/Sparky-bt/API_ML_AI/blob/master/%E8%B7%AF%E5%BE%842.png)
+![路径](https://github.com/Sparky-bt/API_ML_AI/blob/master/images/%E8%B7%AF%E5%BE%842.png)
 
 3、同学圈
 
-![同学圈](https://github.com/Sparky-bt/API_ML_AI/blob/master/%E5%90%8C%E5%AD%A6%E5%9C%881.png)
+![同学圈](https://github.com/Sparky-bt/API_ML_AI/blob/master/images/%E5%90%8C%E5%AD%A6%E5%9C%881.png)
 
-![同学圈](https://github.com/Sparky-bt/API_ML_AI/blob/master/%E5%90%8C%E5%AD%A6%E5%9C%882.png)
+![同学圈](https://github.com/Sparky-bt/API_ML_AI/blob/master/images/%E5%90%8C%E5%AD%A6%E5%9C%882.png)
+
+### 口头操作说明
+
+用户上传一张相片，app自动识别人脸，用户点击人脸即可出现该人脸的基本信息。而每个班级的用户毕业后无论去了哪里，只要打开的定位就可以看见全班的地理分布图，可以规划聚会的最近路径。同学圈可以发布用户动态，可以点赞评论，点击用户头像即可进行私信聊天。
+
 
 ### 产品的可行性
 1、产品需求明确并且用户市场庞大。
